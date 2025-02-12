@@ -19,14 +19,14 @@ Car Price Dataset
 
 The goal of this project is to build a model that predicts car prices based on independent variables such as car specifications, engine details, and more. This will help the automobile company understand how different features affect car pricing and make informed decisions about car design and marketing strategies.
 Steps Implemented
-## 1. Data Loading and Preprocessing
+### 1. Data Loading and Preprocessing
 
  - **Loaded the dataset and performed initial data inspection.**
  - **Removed unnecessary columns (e.g., car_ID and CarName).**
  - **Encoded categorical features (e.g., fuel type, aspiration) using one-hot encoding.**
  - **Split the data into training and testing sets (80-20 split).**
 
-## 2. Model Implementation
+### 2. Model Implementation
 
 We implemented five different regression models to predict car prices:
 
@@ -37,23 +37,23 @@ We implemented five different regression models to predict car prices:
  - **Support Vector Regressor**
 
 Each model was trained on the training set and evaluated based on R-squared, Mean Squared Error (MSE), and Mean Absolute Error (MAE).
-## 3. Model Evaluation
+### 3. Model Evaluation
 
  - **We compared the performance of each model using metrics like R-squared, MSE, and MAE.**
  - **Random Forest Regressor showed the best performance with an R-squared value of 0.95, followed by Gradient Boosting Regressor.**
 
-## 4. Feature Importance Analysis
+### 4. Feature Importance Analysis
 
  - **We used the Random Forest model to identify the most significant features affecting car prices.**
  - **The top features included enginesize, curbweight, and highwaympg, among others.**
  - **Feature selection led to better model performance by reducing the number of features and focusing on the most impactful ones.**
 
-## 5. Hyperparameter Tuning
+### 5. Hyperparameter Tuning
 
  - **Hyperparameter tuning was performed using GridSearchCV to find the best parameters for the Random Forest model.**
  - **After tuning, we found the optimal parameters that improved the model's performance slightly.**
 
-## 6. Model Deployment
+### 6. Model Deployment
 
  - **The best model, after hyperparameter tuning, was deployed to predict car prices.**
  - **A plot was created comparing actual vs predicted car prices to visualize the model's performance.**
