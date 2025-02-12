@@ -8,10 +8,10 @@ A Chinese automobile company is looking to enter the US market by setting up a m
 ### Dataset
 
 The dataset used for this project contains various features of cars, including:
-     - **Car dimensions (e.g., wheelbase, car length, car width)**
-     - **Engine specifications (e.g., horsepower, engine size, cylinder number)**
-     - **Fuel and drive types (e.g., fuel type, engine location, aspiration)**
-     - **Price (target variable)**
+- **Car dimensions (e.g., wheelbase, car length, car width)**
+- **Engine specifications (e.g., horsepower, engine size, cylinder number)**
+- **Fuel and drive types (e.g., fuel type, engine location, aspiration)**
+- **Price (target variable)**
 
 You can access the dataset from the following link:
 [Car Price Dataset](https://drive.google.com/file/d/1FHmYNLs9v0Enc-UExEMpitOFGsWvB2dP/view?usp=drive_link)
